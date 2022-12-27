@@ -1,9 +1,6 @@
 # MESE-Next installation tutorial
 
-NOTE: THIS IS A TUTORIAL FOR INSTALLATION. NOT A HOW TO PLAY 
-*(It should be pretty easy to grasp the gameplay)*
-
-------------
+----------
 
 
 Since I discovered mese I wanted to play it. Hcz's MESE-Next is the way to go.
@@ -76,7 +73,8 @@ As stated in [another comment](https://github.com/hczhcz/mese-next/issues/1#issu
 ## Fire
 
 MongoDB:
-`mongod --bind_ip=127.0.0.1 --dbpath=mese`
+`mongod --bind_ip=127.0.0.1 --dbpath=data`
+*If doesn't turn on, you can continue*
 
 Main:
 `node main.js`
